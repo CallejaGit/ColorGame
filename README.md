@@ -1,4 +1,4 @@
-# Color Game
+# Colour Game
 
 ![Colour Game Demo Pic](screenshot/Demo.png "Color Game!")
 
@@ -17,7 +17,7 @@ you, 'Correct!'
 
 ![Colour Game Demo Pic](screenshot/DemoCorrect.png "Color Game!")
 
-You can press 'New Colours' to reset the game. There is an 'Easy' mode; with 3 squares, and 'Hard' 
+You can press 'New Colors' to reset the game. There is an 'Easy' mode; with 3 squares, and 'Hard' 
 mode; with six squares.
 
 ![Colour Game Demo Pic](screenshot/DemoEasy.png "Color Game!")
