@@ -14,6 +14,8 @@ var hardSection = document.querySelectorAll(".hardSection")[0];
 var newColours = document.querySelectorAll(".newColours")[0];
 var title = document.querySelector(".title");
 var prompt = document.querySelector(".prompt");
+var easyButton = document.querySelectorAll("li")[1].classList;
+var hardButton = document.querySelectorAll("li")[2].classList;
 
 setUp();
 setUpListeners();
@@ -56,14 +58,17 @@ function setUpListeners() {
 			setUp();
 			hardSection.style.display = "none";
 			setting=0;
+			hardButton.toggle("active");
+			easyButton.toggle("active");
 		}
 	});
 	hardOption.addEventListener("click", function() {
-		console.log("adsfa");
 		if (setting != 1) {
 			setUp();
 			hardSection.style.display = "";
 			setting=1;
+			hardButton.toggle("active");
+			easyButton.toggle("active");
 		}
 	});
 	newColours.addEventListener("click", function() {
