@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="ColorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+<!-- title -->
+<div class="title">
+	<h3>The Great 
+	<span class="RGB">RGB(<span class="rgb">0,0,0</span>)</span> 
+	Guessing Game</h3>
+</div>
+<!-- bar -->
+<div>
+	<nav class="navbar navbar-default">
+	  <div class="container-game">
+	    <ul class="nav navbar-nav">
+	      <li><a href="#" class="options newColours">New Colors</a></li>
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+	      <li class="active"><a href="#" class="options easy">Easy</a></li>
+	      <li><a href="#" class="options hard">Hard</a></li>
+	    </ul>
+	  </div>
+	</nav>
+</div>
+<!-- colours -->
+<div class="row game">
+	<div class="col-sm-4 box"></div>
+	<div class="col-sm-4 box"></div>
+	<div class="col-sm-4 box"></div>
+</div>
+<div class="row game hardSection">
+	<div class="col-sm-4 box"></div>
+	<div class="col-sm-4 box"></div>
+	<div class="col-sm-4 box"></div>
+</div>
+
+<script type="text/javascript" src="ColorGame.js"></script>
+</body>
+</html>
