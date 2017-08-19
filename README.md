@@ -22,9 +22,12 @@ mode; with six squares.
 
 ![Colour Game Demo Pic](screenshot/DemoEasy.png "Color Game!")
 
-## Concepts used
-* CSS styling
+### Concepts used
+* CSS styli
 * DOM manipulation
 * Event handling
 
-## Notes
+#### Notes
+* This was made to test my understanding of JS, CSS, HTML. This project idea was from a web development bootcamp.
+
+
