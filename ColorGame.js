@@ -96,7 +96,9 @@ function setUpListeners() {
  	}
  }
 
-// Generates Random Color
+/*
+ * Generates Random Color
+ */ 
 function getRandomColor() {
     return Math.floor(Math.random() * (255 - 0 + 1)) + 0;
 }
