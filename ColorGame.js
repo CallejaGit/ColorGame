@@ -13,6 +13,7 @@ var hardOption = document.querySelectorAll(".hard")[0];
 var hardSection = document.querySelectorAll(".hardSection")[0];
 var newColours = document.querySelectorAll(".newColours")[0];
 var title = document.querySelector(".title");
+var prompt = document.querySelector(".prompt");
 
 setUp();
 setUpListeners();
@@ -26,7 +27,6 @@ function setUp() {
 
 
 	title.style.backgroundColor = "#3862a5";
-	// title.style.border ="10px solid #3862a5";
 
 	// fills the all boxes with random color
 	for (i=0; i < box.length; i++) {
@@ -78,12 +78,13 @@ function setUpListeners() {
  * Determine if this box is correct
  */
  function correct(curr_box) {
- 	console.log(curr_box.style.background);
+
  	if (curr_box.style.background === correctRGB) {
- 		console.log("yipee");
+
  		// change the background colour to correctRGB
  		title.style.backgroundColor = correctRGB;
- 		title.style.border = "10px solid " + correctRGB;
+ 		// title.style.border = "10px solid " + correctRGB;
+ 		prompt.textContent = "Correct!";
 
  		// Make the boxes opaque and with correctRGB
  		for (i=0; i < box.length; i++) {
@@ -92,6 +93,7 @@ function setUpListeners() {
 		}
  	} else {
  		//Fade out
+ 		prompt.textContent = "Try Again!";
  		fadeOut(curr_box);
  	}
  }
@@ -115,3 +117,4 @@ function getRandomColor() {
         element.style.opacity -= 0.01;
     }, 1);
 }
+

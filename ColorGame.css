@@ -1,19 +1,21 @@
+h1 {
+	margin: 0;
+	font-size: 2em;
+	padding: 25px 0;
+}
+
 .title {
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	background-color: #3862a5;
-	border: 10px solid #3862a5;
+	margin: 0;
 }
 
 .RGB {
 	display: block;
 	font-size: 4em;
-}
-
-h3{
-	font-size: 2em;
 }
 
 body {
@@ -52,4 +54,15 @@ li {
 	margin: auto;
 	max-width: 700px;
 	padding-left: 20px;
+}
+
+.prompt {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    width: 100%;
+    margin-top: 13px;
+    font-size: 15px;
+	font-weight: 700;
 }
