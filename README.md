@@ -22,14 +22,14 @@ mode; with six squares.
 
 ![Colour Game Demo Pic](screenshot/DemoEasy.png "Color Game!")
 
-### Concepts used
+### Learning Goals
 
-* CSS styli
+I was trying to learn basic CSS, JS, HTML concepts and I attempt to recreate a project used in a web development course.
+This project used concepts such as;
+
+* CSS styling
 * DOM manipulation
 * Event handling
 
-#### Notes
-
-* This was made to test my understanding of JS, CSS, HTML. This project idea was from a web development bootcamp.
 
 
